@@ -12,7 +12,6 @@
             }
         }
         return self[min];
-        
     }
     return nil;
 }

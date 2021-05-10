@@ -11,9 +11,7 @@
 - (NSArray <NSNumber *> *)trackLeaderBoard:(NSArray <NSNumber *> *)rankedArray
                                playerArray:(NSArray <NSNumber *> *)playerArray {
     if (playerArray.count != 0) {
-
     NSMutableArray *uniqeRankedArray = [NSMutableArray array];
-
     for (id rank in rankedArray) {
         if (![uniqeRankedArray containsObject:rank]) {
             [uniqeRankedArray addObject:rank];
